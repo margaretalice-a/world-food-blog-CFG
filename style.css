@@ -1,0 +1,152 @@
+* {
+    margin: 1px;
+}
+
+.css-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px;
+    background-color:#FAF3DF ; 
+  
+}
+
+.logo-image {
+    width: 130px;
+    height: auto;
+    margin-right: auto; 
+}
+
+
+
+.css-navbar a {
+    padding: 20px !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+    text-align: center !important;
+    font-family: 'Pangolin'
+}
+
+.css-navbar a:hover {
+    background-color:#F1E1A6 !important;
+}
+
+.page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #c3E5AE;
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* HOME PAGE CSS */
+
+.homepage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/food.jpeg") no-repeat center bottom/cover;
+}
+
+
+.homepage-container button, h1, p {
+    margin: 20px;
+}
+
+
+.homepage-content {
+    border: 4px dotted black; 
+    background-color: #FAF3DF;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    font-family: 'Pangolin';
+    font-size: large;
+    box-shadow: 0 0 50px rgba(186, 190, 188, 0.7);
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.random-btn {
+    color: #000000;
+    background-color:#798A65;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px dotted #000000;
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Pangolin';
+    font-size: larger;
+    color: #FFC4DD;
+
+}
+.random-btn:hover {
+    background-color: #EF9595;
+    border: 2px dotted #000000;
+}
+
+footer {
+    text-align: center;
+    background-color: #798A65; 
+    padding: 50px;
+    color: #fff; 
+    font-family: 'Pangolin';
+}
+/* RECIPE PAGE CSS */
+
+.page-title{
+    background: linear-gradient(rgba(255, 254, 255, 0.5), rgba(238, 240, 238, 0.5)),url("images/maps.jpeg");
+    font-family: 'Pangolin';
+    font-size: 30px;
+}
+
+.card-title{
+   font-family:'Pangolin';
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+
+ 
+}
+
+.card-body {
+    border: 2px dotted #000; 
+    border-radius: 10px; 
+    background-color: #FAF3DF;
+    text-align: center;
+}
+
+
+.about-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    margin: 30px;
+    text-align: left;
+}
